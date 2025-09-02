@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-03T00:23:25 IDT" name="ControlUp Automation Suite" finished-at="2025-09-03T00:23:35 IDT" duration-ms="9974">
+    <groups>
+    </groups>
+    <test started-at="2025-09-03T00:23:25 IDT" name="UI Suite" finished-at="2025-09-03T00:23:30 IDT" duration-ms="4856">
+      <class name="controlup.automation.ui.tests.VerifyInventoryItemsTest">
+        <test-method signature="verifyInventoryHasSixItems()[pri:0, instance:controlup.automation.ui.tests.VerifyInventoryItemsTest@1e800aaa]" started-at="2025-09-03T00:23:28 IDT" name="verifyInventoryHasSixItems" description="Scenario 1: Verify that the inventory page displays exactly 6 items." finished-at="2025-09-03T00:23:30 IDT" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryHasSixItems -->
+      </class> <!-- controlup.automation.ui.tests.VerifyInventoryItemsTest -->
+      <class name="controlup.automation.ui.tests.VerifyCartBadgeTest">
+        <test-method signature="cartBadgeShouldShowOneAfterAddingFirstItem()[pri:0, instance:controlup.automation.ui.tests.VerifyCartBadgeTest@3eb25e1a]" started-at="2025-09-03T00:23:25 IDT" name="cartBadgeShouldShowOneAfterAddingFirstItem" description="Scenario 2: Add first item to cart and verify cart badge shows 1" finished-at="2025-09-03T00:23:28 IDT" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartBadgeShouldShowOneAfterAddingFirstItem -->
+      </class> <!-- controlup.automation.ui.tests.VerifyCartBadgeTest -->
+    </test> <!-- UI Suite -->
+    <test started-at="2025-09-03T00:23:30 IDT" name="API Suite" finished-at="2025-09-03T00:23:35 IDT" duration-ms="5087">
+      <class name="controlup.automation.api.tests.VerifyAirportDistanceTest">
+        <test-method is-config="true" signature="setupApiBase()[pri:0, instance:controlup.automation.api.tests.VerifyAirportDistanceTest@fa36558]" started-at="2025-09-03T00:23:33 IDT" name="setupApiBase" finished-at="2025-09-03T00:23:33 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiBase -->
+        <test-method signature="verifyDistanceInvalidCodeReturns422()[pri:0, instance:controlup.automation.api.tests.VerifyAirportDistanceTest@fa36558]" started-at="2025-09-03T00:23:33 IDT" name="verifyDistanceInvalidCodeReturns422" finished-at="2025-09-03T00:23:33 IDT" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDistanceInvalidCodeReturns422 -->
+        <test-method signature="verifyDistanceKixToNrt()[pri:0, instance:controlup.automation.api.tests.VerifyAirportDistanceTest@fa36558]" started-at="2025-09-03T00:23:33 IDT" name="verifyDistanceKixToNrt" finished-at="2025-09-03T00:23:34 IDT" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDistanceKixToNrt -->
+        <test-method signature="verifyDistanceMissingParamReturns422()[pri:0, instance:controlup.automation.api.tests.VerifyAirportDistanceTest@fa36558]" started-at="2025-09-03T00:23:34 IDT" name="verifyDistanceMissingParamReturns422" finished-at="2025-09-03T00:23:34 IDT" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDistanceMissingParamReturns422 -->
+      </class> <!-- controlup.automation.api.tests.VerifyAirportDistanceTest -->
+      <class name="controlup.automation.api.tests.VerifySpecificAirportsTest">
+        <test-method is-config="true" signature="setupApiBase()[pri:0, instance:controlup.automation.api.tests.VerifySpecificAirportsTest@672872e1]" started-at="2025-09-03T00:23:34 IDT" name="setupApiBase" finished-at="2025-09-03T00:23:34 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiBase -->
+        <test-method signature="verifyNonExistingAirportNotInList()[pri:0, instance:controlup.automation.api.tests.VerifySpecificAirportsTest@672872e1]" started-at="2025-09-03T00:23:34 IDT" name="verifyNonExistingAirportNotInList" finished-at="2025-09-03T00:23:35 IDT" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNonExistingAirportNotInList -->
+        <test-method signature="verifySpecificAirportsExist()[pri:0, instance:controlup.automation.api.tests.VerifySpecificAirportsTest@672872e1]" started-at="2025-09-03T00:23:35 IDT" name="verifySpecificAirportsExist" finished-at="2025-09-03T00:23:35 IDT" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificAirportsExist -->
+      </class> <!-- controlup.automation.api.tests.VerifySpecificAirportsTest -->
+      <class name="controlup.automation.api.tests.VerifyAirportCountTest">
+        <test-method is-config="true" signature="setupApiBase()[pri:0, instance:controlup.automation.api.tests.VerifyAirportCountTest@7c1e2a9e]" started-at="2025-09-03T00:23:30 IDT" name="setupApiBase" finished-at="2025-09-03T00:23:31 IDT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiBase -->
+        <test-method signature="verifyAirportsCount()[pri:0, instance:controlup.automation.api.tests.VerifyAirportCountTest@7c1e2a9e]" started-at="2025-09-03T00:23:31 IDT" name="verifyAirportsCount" finished-at="2025-09-03T00:23:32 IDT" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAirportsCount -->
+        <test-method signature="verifyAirportsInvalidEndpointReturns404()[pri:0, instance:controlup.automation.api.tests.VerifyAirportCountTest@7c1e2a9e]" started-at="2025-09-03T00:23:32 IDT" name="verifyAirportsInvalidEndpointReturns404" finished-at="2025-09-03T00:23:33 IDT" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAirportsInvalidEndpointReturns404 -->
+      </class> <!-- controlup.automation.api.tests.VerifyAirportCountTest -->
+    </test> <!-- API Suite -->
+  </suite> <!-- ControlUp Automation Suite -->
+</testng-results>

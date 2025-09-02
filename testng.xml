@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ControlUp Automation Suite">
+
+    <!-- Run only UI tests -->
+    <test name="UI Suite">
+        <packages>
+            <package name="controlup.automation.ui.tests"/>
+        </packages>
+    </test>
+
+    <!-- Run only API tests -->
+    <test name="API Suite">
+        <packages>
+            <package name="controlup.automation.api.tests"/>
+        </packages>
+    </test>
+
+</suite>
